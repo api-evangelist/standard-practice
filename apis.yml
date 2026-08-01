@@ -1,9 +1,25 @@
 aid: standard-practice
 name: Standard Practice
-description: Standard Practice is a company surfaced as a portfolio company of bloomberg-beta, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Standard Practice builds voice AI for healthcare revenue cycle management
+  (RCM) teams. Its AI agents place and handle outbound phone calls to insurance payers
+  to automate administrative work — claim status follow-up, benefits verification,
+  prior authorization, and EDI enrollment — so billing teams can scale collections
+  and get paid more, faster. The platform is delivered as a private, login-gated web
+  application. The company was surfaced through the API Evangelist network as a portfolio
+  company of Bloomberg Beta and Wing Venture Capital and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/standard-practice/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6582078060e528f0118078b0/65bac905cc5ce2c855d79388_Standard%20Practice%20Website%20-%20Social%20Share%20Image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Voice AI
+- Healthcare
+- Revenue Cycle Management
+- Insurance
+- Prior Authorization
+- Automation
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/standard-practice-domain-security.yml
+- type: LLMsTxt
+  url: llms/standard-practice-llms.txt
 - type: Website
   url: https://www.standardpractice.ai/
+- type: Login
+  url: https://platform.standardpractice.ai/
+- type: Support
+  url: mailto:help@standardpractice.ai
+- type: TermsOfService
+  url: https://www.standardpractice.ai/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.standardpractice.ai/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/standardpracticeai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
