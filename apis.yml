@@ -8,6 +8,17 @@ description: Standard Practice builds voice AI for healthcare revenue cycle mana
   application. The company was surfaced through the API Evangelist network as a portfolio
   company of Bloomberg Beta and Wing Venture Capital and enriched by the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/standard-practice/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
